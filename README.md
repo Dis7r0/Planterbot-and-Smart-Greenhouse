@@ -1,2 +1,5 @@
 # Planterbot-and-Smart-Greenhouse
 A seed sowing planterbot and a Smart Greenhouse. 
+
+
+A team project along with three others in which we developed, simulated, and built a working prototype of a seed sowing planter-robot and a smart greenhouse system. The planterbot was a differential drive robot which dropped seeds of any kind at specific places on a track of soil for planting. It was first simulated on Gazebo with ROS and RViz. For the prototype, we used a RaspberryPi computer. We programmed in Python to control four DC motors and sensors on the mobile base to analyze the path and make decisions on its movement. The smart greenhouse system, which was built around the above-mentioned track, made use of various sensors to measure parameters like temperature, humidity, soil moisture and light intensity. These could be controlled by other electronic actuators to optimize conditions for plant growth as deemed fit by the user. The system was connected and could be analyzed on a web application. The smart greenhouse was controlled by an Arduino board.
